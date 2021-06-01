@@ -6,7 +6,8 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 
-public class BaseTest implements IAutoConsts {
+public class BaseTest implements IAutoConsts
+{
 		public static WebDriver driver;
 		@BeforeClass
 		public void openBrowser() throws Throwable {
